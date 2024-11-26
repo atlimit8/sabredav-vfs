@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 namespace Atlimit8\SabreDavVfs\AutoContentType;
-use Atlimit8\SabreDavVfs\ContentTypes;
+use Atlimit8\ContentTypes\Util as ContentTypes;
 use Sabre\DAV\IFile;
 
 class File implements IFile

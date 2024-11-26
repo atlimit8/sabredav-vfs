@@ -1,11 +1,12 @@
 {
     "name": "atlimit8/sabredav-vdir",
     "description": "Virtual WebDAV Directory Wrappers for SabreDAV",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "library",
     "require": {
-        "sabre/dav": "^4.7",
-        "php": "^8.2"
+        "atlimit8/content-types": "^0.0.5",
+        "php": "^8.2",
+        "sabre/dav": "^4.7"
     },
     "license": "MIT",
     "autoload": {

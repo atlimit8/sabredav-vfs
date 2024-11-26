@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d746e91376e321ceda7e3775cf98d548",
+    "content-hash": "86c02ace013051cf5e1945ba28d0e7b1",
     "packages": [
+        {
+            "name": "atlimit8/content-types",
+            "version": "0.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/atlimit8/php-content-type.git",
+                "reference": "f1198bc10578f997983357a286e97b2f2b4f2cea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/atlimit8/php-content-type/zipball/f1198bc10578f997983357a286e97b2f2b4f2cea",
+                "reference": "f1198bc10578f997983357a286e97b2f2b4f2cea",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Atlimit8\\ContentTypes\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "atlimit8",
+                    "email": "atlimit8-vcs@gmx.com"
+                }
+            ],
+            "description": "Simple content (MIME) type detection by filename.",
+            "support": {
+                "issues": "https://github.com/atlimit8/php-content-type/issues",
+                "source": "https://github.com/atlimit8/php-content-type/tree/v0.0.5"
+            },
+            "time": "2024-11-26T13:18:58+00:00"
+        },
         {
             "name": "psr/log",
             "version": "3.0.2",
