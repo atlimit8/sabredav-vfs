@@ -1,0 +1,22 @@
+{
+    "name": "atlimit8/sabredav-vdir",
+    "description": "Virtual WebDAV Directory Wrappers for SabreDAV",
+    "version": "0.0.1",
+    "type": "library",
+    "require": {
+        "sabre/dav": "^4.7",
+        "php": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Atlimit8\\SabreDavVfs\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "atlimit8",
+            "email": "atlimit8-vcs@gmx.com"
+        }
+    ]
+}
